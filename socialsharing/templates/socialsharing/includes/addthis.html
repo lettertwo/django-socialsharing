@@ -1,0 +1,19 @@
+<script type="text/javascript">
+var addthis_config = {
+    "data_track_clickback": true,
+    "data_ga_tracker": "UA-XXXXXX-X",
+    "pubid": "ra-4db990f32aa7fcf2",
+    "ui_click": true,
+    "ui_offset_top": -20,
+    "ui_offset_left": -130,
+    "ui_use_addressbook": true,
+};
+{% if share_url %}
+var addthis_share = {
+    "url": "{{ share_url }}"
+};
+{% endif %}
+</script>
+<script type="text/javascript" src="http://s7.addthis.com/js/250/addthis_widget.js"></script>
+
+
