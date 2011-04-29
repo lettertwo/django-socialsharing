@@ -1,8 +1,15 @@
 Socialsharing
 =============
 This project is a simple integration of various social sharing services for 
-quick integration into Django projects. The list of supported sharing services 
-follows:
+quick integration into Django projects. See the list of supported sharing 
+in the Usage section below.
+
+Installation
+============
+Add `socialsharing` to `INSTALLED_APPS` in settings.py. 
+
+Usage
+=====
 
 addthis
 =======
